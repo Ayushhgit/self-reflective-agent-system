@@ -1,0 +1,32 @@
+# ─── Core LangChain / LangGraph ───────────────────────────────────────────────
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-community>=0.3.0
+langgraph>=0.2.0
+
+# ─── LLM Providers (install at least one) ─────────────────────────────────────
+langchain-groq>=0.2.0          # Groq (recommended – free tier available)
+langchain-openai>=0.2.0        # OpenAI (optional)
+
+# ─── Embeddings ───────────────────────────────────────────────────────────────
+langchain-huggingface>=0.1.0   # HuggingFace sentence-transformers
+sentence-transformers>=3.0.0   # Local embedding model (all-MiniLM-L6-v2)
+
+# ─── Vector Store ─────────────────────────────────────────────────────────────
+faiss-cpu>=1.8.0               # FAISS (CPU build)
+# faiss-gpu>=1.8.0             # Uncomment for GPU support
+
+# ─── API Backend ──────────────────────────────────────────────────────────────
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+pydantic>=2.0.0
+
+# ─── Frontend ─────────────────────────────────────────────────────────────────
+streamlit>=1.38.0
+
+# ─── Utilities ────────────────────────────────────────────────────────────────
+python-dotenv>=1.0.0           # .env file support
+typing-extensions>=4.9.0       # TypedDict backport
+
+# ─── Optional: Web Search ─────────────────────────────────────────────────────
+duckduckgo-search>=6.0.0       # Web search tool (no API key required)
