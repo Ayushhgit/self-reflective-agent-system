@@ -1,0 +1,1 @@
+"""AREA FastAPI backend package."""
