@@ -22,14 +22,14 @@ AREA is a **capstone-level agentic AI system** that demonstrates the full lifecy
 ## 🏗️ Architecture
 
 ```
-User Query
-    │
-    ▼
+    User Query
+       │
+       ▼
 ┌─────────────┐
 │   Planner   │  ← Generates step-by-step execution plan
 └──────┬──────┘
        │
-    ▼
+       ▼
 ┌─────────────┐
 │   Router    │  ← Decides: rag | tool | direct
 └──────┬──────┘
