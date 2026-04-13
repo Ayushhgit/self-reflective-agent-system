@@ -249,17 +249,6 @@ Response:
 
 ---
 
-## 📸 Screenshots
-
-> **Streamlit UI** – Run `streamlit run ui/app.py` to see the interactive interface with:
-> - Query input area
-> - Live pipeline progress
-> - Quality score badge
-> - Expandable plan / tool output / critique sections
-> - Final markdown answer
-
----
-
 ## 🔑 Key Design Decisions
 
 1. **TypedDict state** flows through all nodes — easy to inspect and debug.
@@ -287,4 +276,3 @@ Built as a capstone project demonstrating advanced **Agentic AI** system design 
 
 ---
 
-*This project is for educational purposes and demonstrates production-level multi-agent AI architecture.*
